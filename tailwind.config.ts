@@ -9,10 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero-pattern': "url('arches.png')"
       },
+      colors: {
+        // branding colors
+        'octo-blue': "#3fa8c6",
+        'octo-pale-blue': "#8ccbdd",
+        'octo-red': "#d34957", 
+        'octo-pale-red': "#eaa4ac", 
+        'octo-yellow': "#f2da79", 
+        'octo-pale-yellow': "#fdefc2", 
+      }
     },
   },
   plugins: [],
