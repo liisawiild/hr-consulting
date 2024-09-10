@@ -10,10 +10,10 @@ export default function Footer() {
       </div>
       <div className="flex items-center justify-end text-sm">
         <div className="mx-5">
-          <p className="font-bold uppercase italic">Careers At Octo</p>
+          <p className="font-bold uppercase italic">Newsletter</p>
         </div>
         <div className="mx-5">
-          <p className="font-bold uppercase italic">Contact Octo</p>
+          <p className="font-bold uppercase italic">Contact</p>
 
         </div>
         <div className="flex flex-row items-center ">

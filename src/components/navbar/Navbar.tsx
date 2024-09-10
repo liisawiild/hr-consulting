@@ -17,15 +17,15 @@ export default function Navbar() {
         </div>
 
         <div className="mx-5">
-          <Link href="/resources"><h2>Resources</h2></Link>
+          <Link href="/work"><h2>My Work</h2></Link>
         </div>
 
         <div className="mx-5">
-          <Link href="/about"><h2>About Octo</h2></Link>
+          <Link href="/about"><h2>About</h2></Link>
         </div>
 
         <div className="mx-5">
-          <Link href="/pricing"><h2>Pricing</h2></Link>
+          <Link href="/blog"><h2>Blog</h2></Link>
         </div>
       </div>
 
