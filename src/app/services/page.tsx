@@ -5,7 +5,7 @@ export default function Services() {
     <>
     <div className="pt-10 px-48">
       <h1 className="text-2xl font-bold text-center">Equipped for Solving any Systems or Team Problems</h1>
-      <p className="text-center pt-2">Partnering with Octo Consulting for operational excellence goes beyond adopting new software or drafting new documents--it's an investment in your business's future, providing permanent solutions to the problem plaguing your business.</p>
+      <p className="text-center pt-2">Partnering with Octo Consulting for operational excellence goes beyond adopting new software or drafting new documents--its an investment in your businesss future, providing permanent solutions to the problem plaguing your business.</p>
     </div>
 
 
