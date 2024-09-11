@@ -19,7 +19,7 @@ export default function Services() {
         </div>
 
         <div className="absolute bottom-10 w-full flex justify-center">
-          <Link href="/services/educational" className="block">
+          <Link href="/services/educational">
             <button className="bg-octo-blue p-2 rounded">Create Account</button>
           </Link>
         </div>
@@ -33,7 +33,7 @@ export default function Services() {
           <p className="text-center pb-5">Thiiiiiiiiiiiiiiiiiiiiiiiis is a test test test Explore our free Systems and Teams resources today and start systemizing your business.</p>
         </div>
         <div className="absolute bottom-10 w-full flex justify-center">
-          <Link href="/services/intensive" className="block">
+          <Link href="/services/intensive">
             <button className="bg-octo-blue p-2 rounded">Learn More</button>
           </Link>
         </div>
@@ -46,7 +46,7 @@ export default function Services() {
           <p className="text-center pb-5">Explore our free Systems and Teams resources today and start systemizing your business.</p>
         </div>
         <div className="absolute bottom-10 w-full flex justify-center">
-          <Link href="/services/concierge" className="block">
+          <Link href="/services/concierge">
             <button className="bg-octo-blue p-2 rounded">Learn More</button>
           </Link>
         </div>
@@ -59,7 +59,7 @@ export default function Services() {
           <p className="text-center pb-5">Explore our free Systems and Teams resources today and start systemizing your business.</p>
         </div>
         <div className="absolute bottom-10 w-full flex justify-center">
-          <Link href="/services/integrator" className="block">
+          <Link href="/services/integrator">
             <button className="bg-octo-blue p-2 rounded">Learn More</button>
           </Link>
         </div>      
