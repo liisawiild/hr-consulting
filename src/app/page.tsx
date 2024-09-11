@@ -6,6 +6,7 @@ export default function Home() {
 
   const [wordCount, setWordCount] = useState<number>(0);
   const isInitialRender = useRef(true); //tracks if it is the inital render
+  const wordCountRef = useRef(wordCount); // Use ref to track word count
 
   // console.log("WORD COUNT", wordCount)
 
@@ -34,11 +35,11 @@ export default function Home() {
     }
     // increases wordCount once a word is fully deleted
     if (!isType && !isDelete && !isDelay) {
-      if (wordCount < 4) {
-        setWordCount(prev => prev + 1);
-      } else {
-        setWordCount(1); // Reset to 1 when it cycles back
-      }
+      setWordCount(prev => {
+        const newWordCount = prev < 4 ? prev + 1 : 1; // Increment or reset
+        wordCountRef.current = newWordCount; // Update ref
+        return newWordCount;
+      });
     }
   }, [isDelete, isType, isDelay])
 
