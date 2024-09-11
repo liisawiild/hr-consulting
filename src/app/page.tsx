@@ -5,10 +5,9 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 export default function Home() {
 
   const [wordCount, setWordCount] = useState<number>(0);
-  const [isClient, setIsClient] = useState<boolean>(false); // Check if we're on the client side
   const isInitialRender = useRef(true); //tracks if it is the inital render
 
-  console.log("WORD COUNT", wordCount)
+  // console.log("WORD COUNT", wordCount)
 
   // react-simple-typewriter hook
   const [typeWriter, helper] = useTypewriter({
@@ -26,11 +25,6 @@ export default function Home() {
   })
 
   const { isType, isDelete, isDelay } = helper;
-
-  // Ensure we only apply styles on the client side
-  useEffect(() => {
-    setIsClient(true); // Set to true once we're on the client side
-  }, []);
 
   useEffect(() => {
     // sets isInitialRender to false upon the initial render
@@ -62,13 +56,8 @@ export default function Home() {
 
   const resultingStyle = handleStyle(wordCount)
 
-  console.log("STYLE", resultingStyle)
+  // console.log("STYLE", resultingStyle)
   // console.log("WORDS STATUS", typeWriter)
-
- // Render only on client to avoid hydration issues
- if (!isClient) {
-  return null; // Return nothing during server-side rendering
-}
 
   return (
     <div className="w-full h-screen">
