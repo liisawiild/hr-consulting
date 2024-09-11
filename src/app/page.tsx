@@ -7,7 +7,7 @@ export default function Home() {
   const [wordCount, setWordCount] = useState<number>(0);
   const isInitialRender = useRef(true); //tracks if it is the inital render
 
-  // console.log("WORD INDEX", wordCount)
+  console.log("WORD COUNT", wordCount)
 
   // react-simple-typewriter hook
   const [typeWriter, helper] = useTypewriter({
@@ -33,12 +33,12 @@ export default function Home() {
       return;
     }
     // increases wordCount once a word is fully deleted
-    if (!isType && !isDelete && !isDelay && wordCount <= 3) {
-      setWordCount(prev => prev + 1)
-    }
-    // resets wordCount once the last word is fully deleted
-    else if (!isType && !isDelete && !isDelay && wordCount > 3) {
-      setWordCount(1)
+    if (!isType && !isDelete && !isDelay) {
+      if (wordCount < 4) {
+        setWordCount(prev => prev + 1);
+      } else {
+        setWordCount(1); // Reset to 1 when it cycles back
+      }
     }
   }, [isDelete, isType, isDelay])
 
@@ -50,12 +50,17 @@ export default function Home() {
       "text-green-800 text-3xl pl-6 font-thin font-sans",
       "text-purple-800 text-3xl pl-6",
     ]
-    return stylesArr[wordCount - 1];
+
+    if (wordCount === 0) {
+      return stylesArr[0];
+    } else {
+      return stylesArr[wordCount - 1];
+    }
   }
 
   const resultingStyle = handleStyle(wordCount)
 
-  // console.log("STYLE", resultingStyle)
+  console.log("STYLE", resultingStyle)
   // console.log("WORDS STATUS", typeWriter)
 
   return (
