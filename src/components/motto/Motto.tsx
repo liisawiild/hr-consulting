@@ -60,7 +60,7 @@ export default function Motto() {
   // console.log("WORDS STATUS", typeWriter)
 
   return (
-    <div className="flex flex-col pt-36 px-10">
+    <div className="flex flex-col pt-36 px-10 py-56">
       <div>
         <h1 className="text-3xl">Simplifying your </h1>
       </div>

@@ -13,13 +13,28 @@ export default async function Home() {
   })
 
   return (
-    <div className="w-full min-h-[calc(100vh-72px)] relative bg-white">
-      <Motto />
-      <Newsletter user={user} />
-      <div className="absolute bottom-0">
+    <div className="w-full min-h-[calc(100vh-72px)]">
+      <div>
+        <Motto />
+      </div>
+      {/* <div className="m-5"> */}
+      {/* <Newsletter user={user} /> */}
+
+      {/* </div> */}
+
+      <div className="pt-10">
         <Logos />
       </div>
 
+      <div className="m-10">
+        This is another section
+      </div>
+      <div className="m-10">
+        This is another section
+      </div>
+      <div className="m-10">
+        This is another section
+      </div>
     </div>
   );
 }
