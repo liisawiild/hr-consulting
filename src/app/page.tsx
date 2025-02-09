@@ -13,7 +13,7 @@ export default async function Home() {
   })
 
   return (
-    <div className="w-full min-h-[calc(100vh-72px)]">
+    <div className="w-full">
       <div>
         <Motto />
       </div>
