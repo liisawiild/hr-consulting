@@ -13,12 +13,13 @@ const config: Config = {
       },
       colors: {
         // branding colors
-        'octo-blue': "#3fa8c6",
-        'octo-pale-blue': "#8ccbdd",
-        'octo-red': "#d34957", 
-        'octo-pale-red': "#eaa4ac", 
-        'octo-yellow': "#f2da79", 
-        'octo-pale-yellow': "#fdefc2", 
+        'evo-dark-blue': "#08383a",
+        'evo-blue': "#204c45",
+        'evo-pale-blue': "#678a7c",
+        'evo-orange': "#8b561e",
+        'evo-base': "#e0d4c2",
+        'evo-dark-gold': "#8d6d36",
+        'evo-gold': "#dfb665",
       }
     },
   },

@@ -4,10 +4,16 @@ import Link from 'next/link'
 export default function Navbar() {
 
   return (
-    <div className="flex flex-row justify-between items-center m-5">
+    <div className="flex flex-row justify-between items-center p-5 border-b-2 border-evo-dark-gold">
 
       <div>
-        <Link href="/"><h1 className="font-bold text-xl">OCTO CONSULTING</h1></Link>
+        <img
+          className="max-h-16 w-auto object-contain"
+          src="/Evolance-logo-w-bg.png"
+          alt="gold octopus logo"
+          width="158"
+          height="48"
+        />
       </div>
 
       <div className="flex flex-row justify-between">
@@ -39,6 +45,6 @@ export default function Navbar() {
       </div>
 
     </div>
-    
+
   );
 }

@@ -45,10 +45,10 @@ export default function Motto() {
   // cycles through styles in unison with words
   const handleStyle: (arg: number) => string = (wordCount) => {
     const stylesArr: string[] = [
-      "text-red-600 text-3xl pl-6 font-extrabold italics font-serif",
-      "text-yellow-600 text-3xl pl-6 font-mono",
-      "text-green-800 text-3xl pl-6 font-thin font-sans",
-      "text-purple-800 text-3xl pl-6",
+      "text-red-600 text-2xl pl-6 font-extrabold italics font-serif",
+      "text-yellow-600 text-2xl pl-6 font-mono",
+      "text-green-800 text-2xl pl-6 font-thin font-sans",
+      "text-purple-800 text-2xl pl-6",
     ]
 
     return stylesArr[wordCount - 1];
@@ -60,17 +60,16 @@ export default function Motto() {
   // console.log("WORDS STATUS", typeWriter)
 
   return (
-    <div className="flex flex-col px-10 py-56">
+    <div className="flex px-10 pt-20 pb-32">
       <div>
-        <h1 className="text-3xl">Simplifying your </h1>
+        <h1 className="text-2xl">Simplifying your path toward:</h1>
       </div>
-      <div className="flex flex-row items-center">
-        <h1 className="text-3xl pl-20">path toward: </h1>
+      <div>
         <h1 className={resultingStyle}>{typeWriter}</h1>
-        <span className="text-3xl text-white-500">
-          <Cursor cursorBlinking={true} cursorStyle="|" />
-        </span>
       </div>
+      <span className="text-2xl text-white-500">
+        <Cursor cursorBlinking={true} cursorStyle="|" />
+      </span>
     </div>
   );
 }
