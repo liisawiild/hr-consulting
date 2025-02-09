@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Logos() {
 
   return (
-    <div className="flex flex-row justify-between items-center bg-white ">
+    <div className="flex justify-between items-center bg-white ">
       <div className="font-bold text-xl text-black px-8 py-3">
         < Image src="/Earls-Kitchen-Bar-2.png" width={200} height={200} alt="Logo for Earls Kitchen & Bar" />
       </div>
