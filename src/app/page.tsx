@@ -21,8 +21,10 @@ export default async function Home() {
       {/* <Newsletter user={user} /> */}
 
       {/* </div> */}
-
-      <div className="pt-10">
+      <h2 className="text-center text-sm font-semibold text-white">
+        Trusted by the world’s most innovative teams
+      </h2>
+      <div className="pt-2">
         <Logos />
       </div>
 

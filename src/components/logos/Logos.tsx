@@ -4,41 +4,91 @@ import Image from 'next/image'
 export default function Logos() {
 
   return (
-    <div className="flex justify-between items-center bg-white ">
-      <div className="font-bold text-xl text-black px-8 py-3">
-        < Image src="/Earls-Kitchen-Bar-2.png" width={200} height={200} alt="Logo for Earls Kitchen & Bar" />
-      </div>
-      <div className="font-bold text-xl text-black px-8 py-3">
-        < Image src="/deluxe1915_logo.jpg" width={200} height={200} alt="Logo for Deluxe. A hollow red circle around the red lowercase word deluxe" />
-      </div>
-      <div className="font-bold text-xl text-black px-8 py-3">
-        < Image src="/encore_vfx_logo.jpg" width={200} height={200} alt="Logo for Deluxe. A hollow red circle around the red lowercase word deluxe" />
-      </div>
-      <div className="font-bold text-xl text-black px-8 py-3">
-        < Image src="/Fields logo.jpg" width={200} height={200} alt="Logo for Deluxe. A hollow red circle around the red lowercase word deluxe" />
-      </div>
-      <div className="font-bold text-xl text-black px-8 py-3">
-        < Image src="/Method Studios Logo.jpg" width={200} height={200} alt="Logo for Deluxe. A hollow red circle around the red lowercase word deluxe" />
-      </div>
-      <div className="font-bold text-xl text-black px-8 py-3">
-        < Image src="/mpcvfx_logo.jpg" width={200} height={200} alt="Logo for Deluxe. A hollow red circle around the red lowercase word deluxe" />
-      </div>
-      <div className="font-bold text-xl text-black px-8 py-3">
-        < Image src="/Progressive Assistance Canada Logo.jpg" width={200} height={200} alt="Logo for Deluxe. A hollow red circle around the red lowercase word deluxe" />
-      </div>
-      <div className="font-bold text-xl text-black px-8 py-3">
-        < Image src="/sacre_davey_logo.jpg" width={200} height={200} alt="Logo for Deluxe. A hollow red circle around the red lowercase word deluxe" />
-      </div>
-      <div className="font-bold text-xl text-black px-8 py-3">
-        < Image src="/technicolorgroup_logo.jpg" width={200} height={200} alt="Logo for Deluxe. A hollow red circle around the red lowercase word deluxe" />
-      </div>
-      <div className="font-bold text-xl text-black px-8 py-3">
-        < Image src="/tetra_tech_logo.jpg" width={200} height={200} alt="Logo for Deluxe. A hollow red circle around the red lowercase word deluxe" />
-      </div>
-      <div className="font-bold text-xl text-black px-8 py-3">
-        < Image src="/Zenabis_logo.png" width={200} height={200} alt="Logo for Deluxe. A hollow red circle around the red lowercase word deluxe" />
+    <div className="flex justify-center items-center bg-white">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto m-4 flex flex-wrap justify-center gap-14">
+          <img
+            className="max-h-12 w-auto object-contain"
+            src="/Earls-Kitchen-Bar-2.png"
+            alt="Transistor"
+            width="158"
+            height="48"
+          />
+          <img
+            className="max-h-12 w-auto object-contain"
+            src="/deluxe1915_logo.jpg"
+            alt="Reform"
+            width="158"
+            height="48"
+          />
+          <img
+            className="max-h-12 w-auto object-contain"
+            src="/encore_vfx_logo.jpg"
+            alt="Tuple"
+            width="158"
+            height="48"
+          />
+          <img
+            className="max-h-12 w-auto object-contain"
+            src="/Fields logo.jpg"
+            alt="SavvyCal"
+            width="158"
+            height="48"
+          />
+          <img
+            className="max-h-12 w-auto object-contain"
+            src="/Method Studios Logo.jpg"
+            alt="Statamic"
+            width="158"
+            height="48"
+          />
+          <img
+            className="max-h-12 w-auto object-contain"
+            src="/mpcvfx_logo.jpg"
+            alt="Statamic"
+            width="158"
+            height="48"
+          />
+          <img
+            className="max-h-12 w-auto object-contain"
+            src="/Progressive Assistance Canada Logo.jpg"
+            alt="Statamic"
+            width="158"
+            height="48"
+          />
+          <img
+            className="max-h-12 w-auto object-contain"
+            src="/sacre_davey_logo.jpg"
+            alt="Statamic"
+            width="158"
+            height="48"
+          />
+          <img
+            className="max-h-12 w-auto object-contain"
+            src="/technicolorgroup_logo.jpg"
+            alt="Statamic"
+            width="158"
+            height="48"
+          />
+          <img
+            className="max-h-12 w-auto object-contain"
+            src="/tetra_tech_logo.jpg"
+            alt="Statamic"
+            width="158"
+            height="48"
+          />
+          <img
+            className="max-h-12 w-auto object-contain"
+            src="/Zenabis_logo.png"
+            alt="Statamic"
+            width="158"
+            height="48"
+          />
+        </div>
       </div>
     </div>
 
+
   );
 }
+
