@@ -4,9 +4,9 @@ import { faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg
 
 export default function Footer() {
   return (
-    <div className="flex flex-row justify-between w-full text-white bg-evo-dark-blue p-5">
+    <div className="flex flex-row justify-between w-full text-white bg-elo-dark-blue p-5 font-serif">
       <div className="flex items-center justify-self-start">
-        <p className="italic text-xs">&copy; 2024 Octo Consulting</p>
+        <p className="italic text-xs">&copy; 2025 Elovance Consulting</p>
       </div>
       <div className="flex items-center justify-end text-sm">
         <div className="mx-5">

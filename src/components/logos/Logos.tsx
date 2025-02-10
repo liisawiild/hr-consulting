@@ -3,7 +3,7 @@ import React from 'react'
 export default function Logos() {
 
   return (
-    <div className="flex justify-center items-center bg-white">
+    <div className="flex justify-center items-center bg-white bg-opacity-50">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto m-4 flex flex-wrap justify-center gap-14">
           <img

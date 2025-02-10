@@ -45,10 +45,10 @@ export default function Motto() {
   // cycles through styles in unison with words
   const handleStyle: (arg: number) => string = (wordCount) => {
     const stylesArr: string[] = [
-      "text-red-600 text-2xl pl-6 font-extrabold italics font-serif",
-      "text-yellow-600 text-2xl pl-6 font-mono",
-      "text-green-800 text-2xl pl-6 font-thin font-sans",
-      "text-purple-800 text-2xl pl-6",
+      "text-elo-orange text-xl pl-6 font-sans",
+      "text-elo-orange text-xl pl-6 font-sans",
+      "text-elo-orange text-xl pl-6 font-sans",
+      "text-elo-orange text-xl pl-6 font-sans",
     ]
 
     return stylesArr[wordCount - 1];
@@ -60,14 +60,14 @@ export default function Motto() {
   // console.log("WORDS STATUS", typeWriter)
 
   return (
-    <div className="flex px-10 pt-20 pb-32">
+    <div className="flex px-10 pt-16 pb-36">
       <div>
-        <h1 className="text-2xl">Simplifying your path toward:</h1>
+        <h1 className="text-lg">simplifying your path toward:</h1>
       </div>
       <div>
         <h1 className={resultingStyle}>{typeWriter}</h1>
       </div>
-      <span className="text-2xl text-white-500">
+      <span className="text-xl">
         <Cursor cursorBlinking={true} cursorStyle="|" />
       </span>
     </div>
