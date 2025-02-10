@@ -13,15 +13,21 @@ const config: Config = {
       },
       colors: {
         // branding colors
-        'evo-dark-blue': "#08383a",
-        'evo-blue': "#204c45",
-        'evo-pale-blue': "#678a7c",
-        'evo-orange': "#8b561e",
-        'evo-base': "#e0d4c2",
-        'evo-dark-gold': "#8d6d36",
-        'evo-gold': "#dfb665",
+        'elo-dark-blue': "#08383a",
+        'elo-blue': "#204c45",
+        'elo-pale-blue': "#678a7c",
+        'elo-orange': "#8b561e",
+        'elo-base': "#e0d4c2",
+        'elo-dark-gold': "#A38A5E",
+        'elo-gold': "#dfb665",
       }
     },
+    fontFamily: {
+      //branding fonts
+      sans: ['var(--font-roboto)'],
+      serif: ['var(--font-cinzel)']
+
+    }
   },
   plugins: [],
 };
