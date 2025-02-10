@@ -11,7 +11,7 @@ export default function Motto() {
 
   // react-simple-typewriter hook
   const [typeWriter, helper] = useTypewriter({
-    words: ['recruiting', 'restructing', 'sandwiches', 'SUCCESS'],
+    words: ['scalability & growth', 'employee & customer retention', 'operational efficiency', 'legal compliance & risk management'],
     loop: true,
     typeSpeed: 100,
     deleteSpeed: 40,
