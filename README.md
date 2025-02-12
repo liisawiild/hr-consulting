@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an HR consulting website designed to provide businesses with a range of HR services. It includes features for service descriptions, course registration, resources, and more, aimed at improving organizational processes and compliance.
+This is an HR consulting website designed to provide businesses with a range of HR services. It includes features for service descriptions, consultant CV, resources, and more, aimed at improving organizational HR processes and compliance.
 
 ## Table of Contents
 - [Sneak-peek](#sneak-peek)
